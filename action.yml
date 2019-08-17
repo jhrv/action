@@ -1,9 +1,9 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
+name: 'Johnny Action'
+description: 'testing docker action'
+author: 'Johnny'
 inputs: 
   myInput:
-    description: 'Input to use'
+    description: 'testing input'
     default: 'world'
 runs:
   using: 'docker'
