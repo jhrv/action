@@ -5,6 +5,9 @@ inputs:
   myInput:
     description: 'testing input'
     default: 'world'
+  myOtherInput:
+    description: 'testing another input'
+    default: 'universe'
 runs:
   using: 'docker'
   image: 'Dockerfile'
