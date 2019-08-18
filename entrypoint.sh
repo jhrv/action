@@ -1,3 +1,7 @@
 #!/bin/sh -l
 
-echo "hello $1"
+echo "hello from entrypoint!"
+echo "env is:"
+env
+
+echo "args are $*"

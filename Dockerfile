@@ -4,4 +4,4 @@ COPY LICENSE README.md /
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["echo"]
+ENTRYPOINT ["entrypoint.sh"]
